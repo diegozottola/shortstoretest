@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [My suite]" parallel="tests">
+  <test thread-count="4" name="Compra4(failed)" parallel="tests">
+    <classes>
+      <class name="test4">
+        <methods>
+          <include name="hacer_una_compra4"/>
+          <include name="hacer_una_compra3"/>
+          <include name="cerrarDriver"/>
+          <include name="abrirDriver"/>
+          <include name="hacer_una_compra2"/>
+          <include name="hacer_una_compra"/>
+        </methods>
+      </class> <!-- test4 -->
+    </classes>
+  </test> <!-- Compra4(failed) -->
+  <test thread-count="4" name="Compra(failed)" parallel="tests">
+    <classes>
+      <class name="test">
+        <methods>
+          <include name="hacer_una_compra4"/>
+          <include name="hacer_una_compra3"/>
+          <include name="cerrarDriver"/>
+          <include name="abrirDriver"/>
+          <include name="hacer_una_compra"/>
+          <include name="hacer_una_compra2"/>
+        </methods>
+      </class> <!-- test -->
+    </classes>
+  </test> <!-- Compra(failed) -->
+</suite> <!-- Failed suite [My suite] -->

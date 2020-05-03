@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="My suite" duration-ms="78943" started-at="2020-05-02T08:35:45Z" finished-at="2020-05-02T08:37:04Z">
+    <groups>
+    </groups>
+    <test name="Compra2" duration-ms="73926" started-at="2020-05-02T08:35:45Z" finished-at="2020-05-02T08:36:59Z">
+      <class name="test2">
+        <test-method status="PASS" signature="abrirDriver()[pri:0, instance:test2@2101b44a]" name="abrirDriver" is-config="true" duration-ms="20799" started-at="2020-05-02T08:35:45Z" finished-at="2020-05-02T08:36:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abrirDriver -->
+        <test-method status="PASS" signature="hacer_una_compra()[pri:0, instance:test2@2101b44a]" name="hacer_una_compra" duration-ms="52611" started-at="2020-05-02T08:36:06Z" finished-at="2020-05-02T08:36:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hacer_una_compra -->
+        <test-method status="PASS" signature="cerrarDriver()[pri:0, instance:test2@2101b44a]" name="cerrarDriver" is-config="true" duration-ms="265" started-at="2020-05-02T08:36:59Z" finished-at="2020-05-02T08:36:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarDriver -->
+      </class> <!-- test2 -->
+    </test> <!-- Compra2 -->
+    <test name="Compra" duration-ms="78203" started-at="2020-05-02T08:35:45Z" finished-at="2020-05-02T08:37:04Z">
+      <class name="test">
+        <test-method status="PASS" signature="abrirDriver()[pri:0, instance:test@3724af13]" name="abrirDriver" is-config="true" duration-ms="22846" started-at="2020-05-02T08:35:45Z" finished-at="2020-05-02T08:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abrirDriver -->
+        <test-method status="PASS" signature="hacer_una_compra()[pri:0, instance:test@3724af13]" name="hacer_una_compra" duration-ms="54980" started-at="2020-05-02T08:36:08Z" finished-at="2020-05-02T08:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hacer_una_compra -->
+        <test-method status="PASS" signature="cerrarDriver()[pri:0, instance:test@3724af13]" name="cerrarDriver" is-config="true" duration-ms="357" started-at="2020-05-02T08:37:03Z" finished-at="2020-05-02T08:37:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarDriver -->
+      </class> <!-- test -->
+    </test> <!-- Compra -->
+    <test name="Compra3" duration-ms="78251" started-at="2020-05-02T08:35:45Z" finished-at="2020-05-02T08:37:04Z">
+      <class name="test3">
+        <test-method status="PASS" signature="abrirDriver()[pri:0, instance:test3@35e5d0e5]" name="abrirDriver" is-config="true" duration-ms="22731" started-at="2020-05-02T08:35:45Z" finished-at="2020-05-02T08:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abrirDriver -->
+        <test-method status="PASS" signature="hacer_una_compra()[pri:0, instance:test3@35e5d0e5]" name="hacer_una_compra" duration-ms="55137" started-at="2020-05-02T08:36:08Z" finished-at="2020-05-02T08:37:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hacer_una_compra -->
+        <test-method status="PASS" signature="cerrarDriver()[pri:0, instance:test3@35e5d0e5]" name="cerrarDriver" is-config="true" duration-ms="362" started-at="2020-05-02T08:37:03Z" finished-at="2020-05-02T08:37:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarDriver -->
+      </class> <!-- test3 -->
+    </test> <!-- Compra3 -->
+    <test name="Compra4" duration-ms="78943" started-at="2020-05-02T08:35:45Z" finished-at="2020-05-02T08:37:04Z">
+      <class name="test4">
+        <test-method status="PASS" signature="abrirDriver()[pri:0, instance:test4@4233e892]" name="abrirDriver" is-config="true" duration-ms="22907" started-at="2020-05-02T08:35:45Z" finished-at="2020-05-02T08:36:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abrirDriver -->
+        <test-method status="PASS" signature="hacer_una_compra()[pri:0, instance:test4@4233e892]" name="hacer_una_compra" duration-ms="55539" started-at="2020-05-02T08:36:08Z" finished-at="2020-05-02T08:37:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hacer_una_compra -->
+        <test-method status="PASS" signature="cerrarDriver()[pri:0, instance:test4@4233e892]" name="cerrarDriver" is-config="true" duration-ms="477" started-at="2020-05-02T08:37:04Z" finished-at="2020-05-02T08:37:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cerrarDriver -->
+      </class> <!-- test4 -->
+    </test> <!-- Compra4 -->
+  </suite> <!-- My suite -->
+</testng-results>
