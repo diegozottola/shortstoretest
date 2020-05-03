@@ -22,4 +22,24 @@
             <class name = "test4" />
         </classes>
     </test>
+    <test name = "Compra5">
+        <classes>
+            <class name = "test" />
+        </classes>
+    </test>
+    <test name = "Compra6">
+        <classes>
+            <class name = "test2" />
+        </classes>
+    </test>
+    <test name = "Compra7">
+        <classes>
+            <class name = "test3" />
+        </classes>
+    </test>
+    <test name = "Compra8">
+        <classes>
+            <class name = "test4" />
+        </classes>
+    </test>
 </suite>  
