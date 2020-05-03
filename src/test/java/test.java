@@ -1,7 +1,4 @@
-import io.qameta.allure.Description;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
-import io.qameta.allure.Story;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -11,9 +8,6 @@ import org.testng.annotations.Test;
 
 public class test extends Compra{
 
-    @Severity(SeverityLevel.NORMAL)
-    @Description("Verify home page title")
-    @Story("Test verify base page title")
     @Test
     public void hacer_una_compra() {
         //Abrimos una URL
